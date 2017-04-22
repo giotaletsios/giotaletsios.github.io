@@ -15,7 +15,8 @@ body {
 }
 
 header {
-	background-color: white;
+	background-color: #FFED74;
+	border: 1 px black solid;
 	padding: 20px;
 	margin: 30px;
 }
@@ -38,14 +39,27 @@ a {
 }
 
 nav {
-	color: black;
-	padding: 6px;
+	color: #E8C66A;
+	border: 1 px black solid;
+	padding: 20px;
 	font-size: 15px;
 	text-transform: uppercase;
 	margin-right: 30px;
 	margin-left: 100px;
 	margin-top: 35px;
 	letter-spacing: 5px;
+}
+
+aside {
+	background-color: #FFC675;
+	border: 1 px black solid;
+	padding: 20px;
+}
+
+article {
+	background-color: #E89C6C;
+	border: 1 px black solid;
+	padding: 20px;
 }
 
 img {
@@ -75,9 +89,17 @@ h1, h2 {
 }
 
 footer p {
+	background-color: #FF957E;
+	border: 1px black solid;
 	line-height: 0px;
-	padding: 0px;
+	padding: 20px;
 	font-family: 'Halant', serif;
+}
+
+div {
+	background-color: #FFE2B8;
+	border: 1 px black solid;
+	padding: 20px;
 }
 
 #bodycopy {
