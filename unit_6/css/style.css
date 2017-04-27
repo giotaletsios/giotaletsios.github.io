@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Halant:300');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	color: #222222;
+	line-height: 15px;
+}
+
+header {
+	background-color: white;
+	padding: 20px;
+	margin: 30px;
+}
+
+h1 {
+	font-family: 'Playfair Display', serif;
+	color: black;
+	font-size: 45px;
+	text-transform: uppercase;
+	letter-spacing: 18px;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+nav {
+	color: #E8C66A;
+	padding: 20px;
+	font-size: 15px;
+	text-transform: uppercase;
+	margin-right: 30px;
+	margin-left: 100px;
+	margin-top: 35px;
+	letter-spacing: 5px;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+
+aside {
+	background-color: #FFC675;
+	padding: 20px;
+}
+
+article {
+	background-color: #E89C6C;
+	padding: 20px;
+}
+
+#two_column {
+	background-color: white;
+	padding: 20 px;
+}
+
+#left {
+	background-color: white;
+	padding: 20px;
+	float: left;
+	width: 30%;
+}
+
+#right {
+	background-color: white;
+	padding: 20px;
+	float: right;
+	width: 62%;
+}
+
+
+img {
+	width: 100%;
+}
+
+main {
+	font-family: 'Halant', serif;
+	font-size: 20px;
+	padding: 20px;
+}
+
+ul, ol {
+	color: #cccccc;
+	font-size: 22px;
+	padding-left: 20px;
+	text-transform: uppercase;
+	line-height: 25px;
+}
+
+h1, h2 {
+	margin: 10px 0;
+}
+
+footer p {
+	background-color: #575953;
+	line-height: 0px;
+	padding: 10px;
+	font-family: 'Halant', serif;
+}
+
+div {
+	background-color: white;
+	padding: 20px;
+}
+
+#bodycopy {
+	font-style: italic;
+	line-height: 22px;
+	margin: 30px;
+}
+
+.contacts {
+	color: #cccccc;
+}
+
+footer span {
+	color: #cccccc;
+}
