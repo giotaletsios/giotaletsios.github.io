@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Halant:300');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	color: #222222;
+	line-height: 15px;
+}
+
+header {
+	background-color: white;
+	padding: 20px;
+	margin: 30px;
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Playfair Display', serif;
+	color: black;
+	font-size: 45px;
+	text-transform: uppercase;
+	letter-spacing: 18px;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+nav {
+	color: #E8C66A;
+	padding: 20px;
+	font-size: 15px;
+	text-transform: uppercase;
+	margin-right: 50px;
+	margin-left: 100px;
+	margin-top: 22px;
+	letter-spacing: 5px;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+aside {
+	background-color: #FFC675;
+	padding: 20px;
+}
+
+article {
+	background-color: #E89C6C;
+	padding: 20px;
+}
+
+#two_column {
+	background-color: white;
+	padding: 20 px;
+}
+
+#left {
+	background-color: white;
+	padding: 20px;
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+
+#right {
+	background-color: white;
+	padding: 20px;
+	float: right;
+	width: 50%;
+	text-align: center;
+}
+
+img {
+	width: 100%;
+}
+
+.column img {
+	width: 100%;
+	height: auto;
+}
+
+main {
+	font-family: 'Halant', serif;
+	font-size: 18px;
+	padding: 20px;
+}
+
+ul, ol {
+	color: black;
+	font-size: 20px;
+	padding-left: 20px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	line-height: 25px;
+	list-style: disc;
+	text-align: left;
+	margin-top: 30px;
+	margin-left: 30px;
+}
+
+h1, h2 {
+	margin: 10px 0;
+}
+
+footer p {
+	background-color: #575953;
+	line-height: 1px;
+	padding: 10px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+div {
+	background-color: white;
+	padding: 20px;
+}
+
+#bodycopy {
+	font-style: italic;
+	line-height: 22px;
+	margin: 30px;
+}
+
+.contacts {
+	color: white;
+}
+
+footer span {
+	color: black;
+}
+
+#wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+}
